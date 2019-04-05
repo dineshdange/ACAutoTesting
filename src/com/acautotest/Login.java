@@ -12,7 +12,7 @@ public class Login {
 		
 		WebDriver driver = new ChromeDriver();
 		
-		driver.navigate().to("https://www.avikcloud.com");
+		driver.navigate().to("https://www.google.com");
 	}
 
 }
