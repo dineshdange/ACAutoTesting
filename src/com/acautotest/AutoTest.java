@@ -7,7 +7,18 @@ public class AutoTest {
 		// TODO Auto-generated method stub
 		
 	//	Login.doLogin();
-		Project.projectCreate();
+		//gotoProject(WebDriver)
+		//projectCreate
+		//projectGet
+		//clusterGet
+		//clusterCreate
+		//clusterRun
+		//gotoCluster
+		//createFlowBuilder
+		//createFlowQuality
+		//createSchedule
+		Project.projectCreate("ACTest","IT", "Testing", Login.doLogin());
+		
 	}
 
 }

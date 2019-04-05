@@ -6,7 +6,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class ChromeDriverUtil {
 	public static WebDriver getChromeDriver() {
-		System.setProperty("webdriver.chrome.driver", "\\AvikCloud_Testing\\AvikAutomation\\Drivers\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "../ACAutoTesting/Drivers/chromedriver.exe");
 		
 		ChromeOptions chromeopts = new ChromeOptions();
 		chromeopts.addArguments("start-maximized");
