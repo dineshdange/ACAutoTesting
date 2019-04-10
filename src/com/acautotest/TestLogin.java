@@ -17,7 +17,7 @@ public class TestLogin {
 
 	@Test
 	public void testDoLogin() throws InterruptedException {
-		Login.doLogin();
+		SampleLogin.doLogin();
 	}
 
 }
